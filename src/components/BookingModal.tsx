@@ -64,7 +64,7 @@ export const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: ()
             <div>
               <h3 className="text-3xl font-serif mb-4">Book Your Glow</h3>
               <p className="text-cream/60 text-sm leading-relaxed">
-                Experience the pinnacle of skincare at Seema Clinic. Your journey to radiant skin begins here.
+                Experience the pinnacle of skincare at Skin Care Clinic. Your journey to radiant skin begins here.
               </p>
             </div>
             
@@ -98,7 +98,7 @@ export const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: ()
                   </div>
                   <h4 className="text-2xl font-serif">Appointment Confirmed!</h4>
                   <p className="text-ink/60 text-sm">
-                    We've sent a confirmation email to {formData.email}. See you soon at Seema Clinic!
+                    We've sent a confirmation email to {formData.email}. See you soon at Skin Care Clinic!
                   </p>
                   <button 
                     onClick={onClose}

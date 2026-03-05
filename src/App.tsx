@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: "Elena Rodriguez",
     role: "Regular Client",
-    content: "The expertise at Seema Clinic is unmatched. My skin has never looked more radiant and healthy.",
+    content: "The expertise at Skin Care Clinic is unmatched. My skin has never looked more radiant and healthy.",
     rating: 5
   },
   {
@@ -60,7 +60,7 @@ export default function App() {
       <nav className="fixed top-0 w-full z-40 bg-cream/80 backdrop-blur-md border-b border-ink/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection('hero')}>
-            <span className="text-2xl font-serif tracking-widest uppercase">Seema Clinic</span>
+            <span className="text-2xl font-serif tracking-widest uppercase">Skin Care Clinic</span>
           </div>
 
           {/* Desktop Nav */}
@@ -239,7 +239,7 @@ export default function App() {
               <div className="aspect-[3/4] rounded-[100px] overflow-hidden shadow-2xl">
                 <img 
                   src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800" 
-                  alt="Seema Clinic Interior"
+                  alt="Skin Care Clinic Interior"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
                 />
@@ -250,9 +250,9 @@ export default function App() {
               </div>
             </div>
             <div>
-              <h2 className="text-5xl md:text-6xl font-serif mb-8">The Seema Clinic Philosophy</h2>
+              <h2 className="text-5xl md:text-6xl font-serif mb-8">The Skin Care Clinic Philosophy</h2>
               <div className="space-y-6 text-ink/70 text-lg leading-relaxed">
-                <p>Founded by Dr. Seema, our clinic was born out of a passion for dermatological excellence and a commitment to patient-centric care.</p>
+                <p>Founded by our lead specialists, our clinic was born out of a passion for dermatological excellence and a commitment to patient-centric care.</p>
                 <p>We believe that skincare is more than just surface-level treatments; it's about confidence, health, and well-being. Our team of board-certified specialists uses the latest clinical innovations to craft personalized paths to skin health.</p>
                 <div className="pt-8 grid grid-cols-2 gap-8">
                   <div>
@@ -321,7 +321,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
             <h2 className="text-5xl md:text-6xl font-serif mb-6">Voices of Radiance</h2>
-            <p className="text-cream/60 max-w-xl mx-auto">Hear from our community about their transformative journeys at Seema Clinic.</p>
+            <p className="text-cream/60 max-w-xl mx-auto">Hear from our community about their transformative journeys at Skin Care Clinic.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12">
@@ -436,7 +436,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-10">
             <div className="flex items-center gap-2">
-              <span className="text-xl font-serif tracking-widest uppercase text-cream">Seema Clinic</span>
+              <span className="text-xl font-serif tracking-widest uppercase text-cream">Skin Care Clinic</span>
             </div>
             <div className="flex gap-10 text-xs font-bold tracking-widest uppercase">
               <a href="#" className="hover:text-cream transition-colors">Privacy Policy</a>
@@ -444,7 +444,7 @@ export default function App() {
               <a href="#" className="hover:text-cream transition-colors">Careers</a>
             </div>
             <div className="text-xs">
-              © 2026 Seema Clinic. All rights reserved.
+              © 2026 Skin Care Clinic. All rights reserved.
             </div>
           </div>
         </div>
